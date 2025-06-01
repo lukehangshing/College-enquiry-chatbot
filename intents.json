@@ -1,0 +1,187 @@
+{
+  "intents": [
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What do you call an Indian electrician? Ashok"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! I'm Kristoff, how can I help you with Tetso College today?"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is Tetso college?", "Tetso location", "Where is Tetso college located?", "Tetso College where?"],
+      "responses": ["Tetso College is located in Dimapur, Nagaland. You can find directions on Google Maps or visit the official website for more information."]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How can I apply to Tetso College?",
+        "What is the admission process at Tetso College?",
+        "Tell me how to get admission in Tetso College",
+        "How do I apply online to Tetso?",
+        "What are the steps for online admission?",
+        "Give me the online application procedure for Tetso College"
+      ],
+      "responses": [
+        "Welcome! Here's how to apply online to Tetso College:\n1. Register at admission.tetsocollege.edu.in and download the prospectus.\n2. Log in to submit your application.\n3. Pay the ₹500 registration fee.\n4. Submit your documents and wait for an acceptance email or call.\n5. Once accepted, pay the admission fee within 3 days to confirm your seat.\n6. You'll receive a welcome email and can collect your welcome kit on joining!",
+        "To apply for admission:\n- Register and download the prospectus from admission.tetsocollege.edu.in\n- Submit your form with documents\n- Pay a ₹500 registration fee\n- Wait for an acceptance message\n- Pay admission fee within 3 days to confirm your seat\n- Receive your welcome email and kit. Welcome to Tetso!",
+        "Just follow these steps for online admission: Register → Login → Pay ₹500 registration → Submit documents → Wait for approval → Pay final fee → Get welcome email and kit!"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are offered?", "Available programs", "List of courses"],
+      "responses": ["Tetso College offers UG and PG programs in Computer science, Arts, Commerce, and Management. Visit: https://tetsocollege.org/courses"]
+    },
+    {
+      "tag": "fee_payment",
+      "patterns": [
+        "How do I pay the admission fee?",
+        "What is the process to pay fees?",
+        "How to pay fees at Tetso College?",
+        "Tell me how to make the payment for admission",
+        "Where do I pay the college fee?",
+        "How to confirm my seat with fee payment?"
+      ],
+      "responses": [
+        "You can pay the admission fee in two ways:\n\n1. **Online Payment**: Use netbanking to pay via this link: [Pay Online](https://www.eduqfix.com/PayDirect/#/student/pay/2LrcGicxtD7R94+iMDIVRQy5I0bFOTfL38vsF3sicPIpWD0sTgknltkWPXZFuEKx/684)\n\n2. **Offline Payment**: Visit a bank and make a payment using a challan.\n\nMake sure to pay within 3 days of receiving your acceptance to confirm your seat!"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["Scholarship details", "Available scholarships", "Financial aid"],
+      "responses": ["Check out the scholarship options here: https://tetsocollege.org/scholarship"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["Contact details", "How to reach", "Phone number", "Email"],
+      "responses": ["You can contact Tetso College at +91 7005998089 or email contact@tetsocollege.org."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Hostel facilities", "Accommodation", "Living arrangements"],
+      "responses": ["Tetso College offers hostel facilities. Learn more here: https://tetsocollege.org/hostel"]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["Placement details", "Career opportunities", "Jobs after graduation"],
+      "responses": ["Learn about Tetso College's placement cell here: https://tetsocollege.org/placement"]
+    },
+    {
+      "tag": "postgraduate_courses",
+      "patterns": [
+        "What postgraduate courses are available?",
+        "List MA programs",
+        "Which master's degrees can I do?",
+        "PG courses at Tetso",
+        "Postgrad options?"
+      ],
+      "responses": [
+        "Tetso College offers the following postgraduate programs:\n- Master of Arts in English\n- Master of Arts in Political Science\n- Master of Arts in History\n- Master of Arts in Sociology"
+      ]
+    },
+    {
+      "tag": "undergraduate_courses",
+      "patterns": [
+        "What undergraduate courses are offered?",
+        "List all bachelor's degrees",
+        "UG courses at Tetso",
+        "What can I study at the undergraduate level?",
+        "Bachelor programs?"
+      ],
+      "responses": [
+        "Tetso College offers the following undergraduate programs:\n- Bachelor of Business Administration (BBA)\n- Bachelor of Computer Application (BCA)\n- Bachelor of Social Work (BSW)\n- Bachelor of Commerce (BCOM)\n- Bachelor of Arts in English\n- Bachelor of Arts in Economics\n- Bachelor of Arts in Education\n- Bachelor of Arts in Political Science\n- Bachelor of Arts in Sociology\n- Bachelor of Arts in Psychology\n- Bachelor of Arts in Linguistics\n- Bachelor of Arts in Mass Communication\n- Bachelor of Arts in History\n- Bachelor of Music"
+      ]
+    },
+    {
+      "tag": "all_courses_detailed",
+      "patterns": [
+        "Tell me all the courses offered",
+        "Give me a detailed course list",
+        "What programs can I study at Tetso?",
+        "Show all available degrees"
+      ],
+      "responses": [
+        "Tetso College offers graduate and postgraduate degrees in Arts, Commerce, and Management. Here's the complete list:\n\nPostgraduate:\n- Master of Arts in English\n- Master of Arts in Political Science\n- Master of Arts in History\n- Master of Arts in Sociology\n\nUndergraduate:\n- Bachelor of Business Administration (BBA)\n- Bachelor of Computer Application (BCA)\n- Bachelor of Social Work (BSW)\n- Bachelor of Commerce (BCOM)\n- Bachelor of Arts in English\n- Bachelor of Arts in Economics\n- Bachelor of Arts in Education\n- Bachelor of Arts in Political Science\n- Bachelor of Arts in Sociology\n- Bachelor of Arts in Psychology\n- Bachelor of Arts in Linguistics\n- Bachelor of Arts in Mass Communication\n- Bachelor of Arts in History\n- Bachelor of Music"
+      ]
+    },
+    {
+      "tag": "uniform",
+      "patterns": [
+        "Uniform price",
+        "How much is the uniform?",
+        "Uniform cost",
+        "What is the price of the college uniform?",
+        "Uniform price list"
+      ],
+      "responses": [
+        "Here is the Tetso College Uniform Price List for 2025 (Uniform is not included in the admission amount):\n\n- Shirt (1): ₹650\n- Pant/Skirt (1): ₹850\n- Black socks (1): ₹100\n- Necktie (1): ₹200\n- Polo (1): ₹600\n- Blazer (1): ₹2500\n\n**Total: ₹4900/-**\n**Discounted price for full set: ₹4500/-**"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Sorry, I don't understand. Could you rephrase that?", "I'm not sure I follow. Can you ask differently?"],
+      "context_set": ""
+    },
+    {
+      "tag": "college_history",
+      "patterns": [
+        "Tell me about the history of Tetso College",
+        "When was Tetso College founded?",
+        "Who founded Tetso College?",
+        "Can you give a brief history of Tetso College?",
+        "How did Tetso College start?",
+        "Give me some background on Tetso College"
+      ],
+      "responses": [
+        "Tetso College was founded in 1994 under the sponsorship of the Council of Rengma Baptist Churches. Since then, it has focused on quality education and lifelong learning.",
+        "Tetso College began in 1994, supported by the Council of Rengma Baptist Churches. It promotes academic excellence and inclusivity for students from diverse backgrounds.",
+        "Established in 1994, Tetso College has grown into a leader in higher education, forming global partnerships and creating innovative programs for student success."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "How to check attendance?",
+        "Where can I see my attendance?",
+        "Check my attendance",
+        "View attendance record",
+        "Attendance details"
+      ],
+      "responses": [
+        "You can check your attendance through the college Morung portal. Please log in with your student credentials to view your attendance record. If you face any issues, kindly contact the college administration."
+      ]
+    },
+    {
+      "tag": "email_password_reset",
+      "patterns": [
+        "How to change my college email password?",
+        "Reset college email password",
+        "Change my student email password",
+        "Forgot college email password",
+        "Update my college email credentials"
+      ],
+      "responses": [
+        "To change your college email password, please reach out to the college IT department and they will help you with it."
+      ]
+    }
+  ]
+}
